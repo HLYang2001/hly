@@ -21,26 +21,6 @@ lrec:
   short: "LREC"
   h5: 68
 
-nlp:
-  name_jp: "言語処理学会年次大会"
-  name: "Annual Conference of the Association for Natural Language Processing"
-  short: "NLP"
-
-jsai:
-  name_jp: "人工知能学会全国大会"
-  name: "Annual Conference of the Japanese Society for Artificial Intelligence"
-  short: "JSAI"
-
-yans:
-  name_jp: "言語処理若手シンポジウム"
-  name: "Symposium of Young Researcher Association for NLP Studies"
-  short: "YANS"
-
-JNLP:
-  name_jp: "自然言語処理"
-  name: "Journal of Natural Language Processing"
-  short: "JNLP"
-
 BlackBox:
   name: "BlackboxNLP Workshop"
 

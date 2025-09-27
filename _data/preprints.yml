@@ -1,120 +1,51 @@
-- title: "Measuring Intrinsic Dimension of Token Embeddings"
+- title: "Binary Autoencoder for Mechanistic Interpretability of Large Language Models"
   authors:
-    - name: "Takuya Kataiwa"
-    - name: me
-    - name: "Tetsushi Ohki"
-      url: "https://sec.inf.shizuoka.ac.jp/people/ohki/"
+    - name: hc
+    - name: hy
+    - name: Brian M. Kurkoski
+      url: "https://www.jaist.ac.jp/is/labs/bits/brian"
+    - name: ni
+  venue: ICLR
   year: 2025
-  basic_url: "https://arxiv.org/abs/2503.02142"
-  pages: 6
+  basic_url: "https://arxiv.org/abs/2509.20997"
+  pages: 36
   urls:
-    - url: "https://arxiv.org/pdf/2503.02142"
+    - url: "https://arxiv.org/pdf/2509.20997"
       label: "PDF"
-    - url: "https://arxiv.org/abs/2503.02142"
+    - url: "https://arxiv.org/abs/2509.20997"
       label: "arXiv"
-  abstract: "In this study, we measure the Intrinsic Dimension (ID) of token embedding to estimate the intrinsic dimensions of the manifolds spanned by the representations, so as to evaluate their redundancy quantitatively compared to their extrinsic dimensionality. In detail, (1) we estimate the ID of token embeddings in small-scale language models and also modern large language models, finding that the embedding spaces often reside on lower-dimensional manifolds compared to their extrinsic dimensionality; (2) we measure the ID across various model sizes and observe an increase in redundancy rates as the model scale grows; (3) we measure the dynamics of IDs during the training process, and find a rapid ID drop in the early stages of training. Moreover, (4) when LoRA is applied to the embedding layers, we observe a sudden drop in perplexity around the estimated IDs, suggesting that the ID can serve as a useful guideline for LoRA application."
-  id: "arxiv1"
-  bibtex: |
-    @article{kataiwa2025measuring,<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;title={Measuring Intrinsic Dimension of Token Embeddings},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;author={Kataiwa, Takuya and Cho, Hakaze and Ohki, Tetsushi},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2503.02142},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;year={2025}<br>
-    }
-
-- title: "Affinity and Diversity: A Unified Metric for Demonstration Selection via Internal Representations"
-  authors:
-    - name: "Mariko Kato"
-    - name: me
-    - name: "Yoshihiro Sakai"
-    - name: n-inoue
-  year: 2025
-  basic_url: "https://arxiv.org/abs/2502.14380"
-  pages: 8
-  urls:
-    - url: "https://arxiv.org/abs/2502.14380"
-      label: "PDF"
-    - url: "https://arxiv.org/abs/2502.1438"
-      label: "arXiv"
-  abstract: "The performance of In-Context Learning (ICL) is highly sensitive to the selected demonstrations. Existing approaches to demonstration selection optimize different objectives, yielding inconsistent results. To address this, we propose a unified metric--affinity and diversity--that leverages ICL model's internal representations. Our experiments show that both affinity and diversity strongly correlate with test accuracies, indicating their effectiveness for demonstration selection. Moreover, we show that our proposed metrics align well with various previous works to unify the inconsistency."
+  abstract: "Existing works are dedicated to untangling atomized numerical components (features) from the hidden states of Large Language Models (LLMs) for interpreting their mechanism. However, they typically rely on autoencoders constrained by some implicit training-time regularization on single training instances (i.e.,  normalization, top-k function, etc.), without an explicit guarantee of global sparsity among instances, causing a large amount of dense (simultaneously inactive) features, harming the feature sparsity and atomization. In this paper, we propose a novel autoencoder variant that enforces minimal entropy on minibatches of hidden activations, thereby promoting feature independence and sparsity across instances. For efficient entropy calculation, we discretize the hidden activations to 1-bit via a step function and apply gradient estimation to enable backpropagation, so that we term it as Binary Autoencoder (BAE) and empirically demonstrate two major applications: (1) Feature set entropy calculation. Entropy can be reliably estimated on binary hidden activations, which we empirically evaluate and leverage to characterize the inference dynamics of LLMs and In-context Learning. (2) Feature untangling. Similar to typical methods, BAE can extract atomized features from LLM's hidden states. To robustly evaluate such feature extraction capability, we refine traditional feature-interpretation methods to avoid unreliable handling of numerical tokens, and show that BAE avoids dense features while producing the largest number of interpretable ones among baselines, which confirms the effectiveness of BAE serving as a feature extractor."
   id: "arxiv2"
   bibtex: |
-    @article{kato2025affinity,<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;title={Affinity and Diversity: A Unified Metric for Demonstration Selection via Internal Representations},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;author={Kato, Mariko and Cho, Hakaze and Sakai, Yoshihiro and Inoue, Naoya},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2502.14380},<br>
+    @article{cho2025binary,<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;title={Binary Autoencoder for Mechanistic Interpretability of Large Language Models},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;author={Cho, Hakaze and Yang, Haolin and Kurkoski, Brian M. and Inoue, Naoya},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2509.20997},<br>
       &nbsp;&nbsp;&nbsp;&nbsp;year={2025}<br>
     }
 
-- title: "StaICC: Standardized Evaluation for Classification Task in In-context Learning"
+- title: "Mechanism of Task-oriented Information Removal in In-context Learning"
   authors:
-    - name: me
-    - name: n-inoue
+    - name: hc
+    - name: hy
+    - name: Gouki Minegishi
+      url: "https://gouki-minegishi.github.io/"
+    - name: ni
+  venue: ICLR
   year: 2025
-  basic_url: "https://arxiv.org/abs/2501.15708"
-  pages: 20
+  basic_url: "https://arxiv.org/abs/2509.21012"
+  pages: 67
   urls:
-    - url: "https://arxiv.org/abs/2501.15708"
+    - url: "https://arxiv.org/pdf/2509.21012"
       label: "PDF"
-    - url: "https://arxiv.org/abs/2501.15708"
+    - url: "https://arxiv.org/abs/2509.21012"
       label: "arXiv"
-    - url: "https://github.com/hc495/StaICC"
-      label: "Github"
-    - url: "https://pypi.org/project/StaICC/"
-      label: "PyPI"
-  abstract: "Classification tasks are widely investigated in the In-Context Learning (ICL) paradigm. However, current efforts are evaluated on disjoint benchmarks and settings, while their performances are significantly influenced by some trivial variables, such as prompt templates, data sampling, instructions, etc., which leads to significant inconsistencies in the results reported across various literature, preventing fair comparison or meta-analysis across different papers. Therefore, this paper proposes a standardized and easy-to-use evaluation toolkit (StaICC) for in-context classification. Including, for the normal classification task, we provide StaICC-Normal, selecting 10 widely used datasets, and generating prompts with a fixed form, to mitigate the variance among the experiment implementations. To enrich the usage of our benchmark, we also provide a sub-benchmark StaICC-Diag for diagnosing ICL from several aspects, aiming for a more robust inference processing."
-  id: "arxiv3"
+  abstract: "In-context Learning (ICL) is an emerging few-shot learning paradigm based on modern Language Models (LMs), yet its inner mechanism remains unclear. In this paper, we investigate the mechanism through a novel perspective of information removal. Specifically, we demonstrate that in the zero-shot scenario, LMs encode queries into non-selective representations in hidden states containing information for all possible tasks, leading to arbitrary outputs without focusing on the intended task, resulting in near-zero accuracy. Meanwhile, we find that selectively removing specific information from hidden states by a low-rank filter effectively steers LMs toward the intended task. Building on these findings, by measuring the hidden states on carefully designed metrics, we observe that few-shot ICL effectively simulates such task-oriented information removal processes, selectively removing the redundant information from entangled non-selective representations, and improving the output based on the demonstrations, which constitutes a key mechanism underlying ICL. Moreover, we identify essential attention heads inducing the removal operation, termed Denoising Heads, which enables the ablation experiments blocking the information removal operation from the inference, where the ICL accuracy significantly degrades, especially when the correct label is absent from the few-shot demonstrations, confirming both the critical role of the information removal mechanism and denoising heads."
+  id: "arxiv1"
   bibtex: |
-    @article{cho2025staicc,<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;title={StaICC: Standardized Evaluation for Classification Task in In-context Learning},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;author={Cho, Hakaze and Inoue, Naoya},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2501.15708},<br>
+    @article{cho2025mechanism,<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;title={Mechanism of Task-oriented Information Removal in In-context Learning},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;author={Cho, Hakaze and Yang, Haolin and Minegishi, Gouki and Inoue, Naoya},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2509.21012},<br>
       &nbsp;&nbsp;&nbsp;&nbsp;year={2025}<br>
-    }
-
-- title: "NoisyICL: A Little Noise in Model Parameters Calibrates In-context Learning"
-  authors:
-    - name: "Yufeng Zhao"
-    - name: "Yoshihiro Sakai"
-    - name: n-inoue
-  year: 2024
-  basic_url: "https://arxiv.org/abs/2402.05515"
-  pages: 20
-  urls:
-    - url: "https://arxiv.org/abs/2402.05515"
-      label: "PDF"
-    - url: "https://arxiv.org/abs/2402.05515"
-      label: "arXiv"
-    - url: "https://github.com/hc495/NoisyICL"
-      label: "Github"
-  abstract: "In-Context Learning (ICL) is suffering from unsatisfactory performance and under-calibration due to high prior bias and unfaithful confidence. Some previous works fine-tuned language models for better ICL performance with enormous datasets and computing costs. In this paper, we propose NoisyICL, simply perturbing the model parameters by random noises to strive for better performance and calibration. Our experiments on two models and 12 downstream datasets show that NoisyICL can help ICL produce more accurate predictions. Our further analysis indicates that NoisyICL enables the model to provide more fair predictions, and also with more faithful confidence. Therefore, we believe that NoisyICL is an effective calibration of ICL. Our experimental code is uploaded to Github."
-  id: "arxiv4"
-  bibtex: |
-    @article{zhao2024noisyicl,<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;title={NoisyICL: A Little Noise in Model Parameters Calibrates In-context Learning},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;author={Zhao, Yufeng and Sakai, Yoshihiro and Inoue, Naoya},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2402.05515},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;year={2024}<br>
-    }
-
-- title: "SkIn: Skimming-Intensive Long-Text Classification Using BERT for Medical Corpus"
-  authors:
-    - name: "Yufeng Zhao"
-    - name: "et al."
-  year: 2022
-  basic_url: "https://arxiv.org/abs/2209.05741"
-  pages: 14
-  urls:
-    - url: "https://arxiv.org/abs/2209.05741"
-      label: "PDF"
-    - url: "https://arxiv.org/abs/2209.05741"
-      label: "arXiv"
-  abstract: "BERT is a widely used pre-trained model in natural language processing. However, since BERT is quadratic to the text length, the BERT model is difficult to be used directly on the long-text corpus. In some fields, the collected text data may be quite long, such as in the health care field. Therefore, to apply the pre-trained language knowledge of BERT to long text, in this paper, imitating the skimming-intensive reading method used by humans when reading a long paragraph, the Skimming-Intensive Model (SkIn) is proposed. It can dynamically select the critical information in the text so that the sentence input into the BERT-Base model is significantly shortened, which can effectively save the cost of the classification algorithm. Experiments show that the SkIn method has achieved superior accuracy than the baselines on long-text classification datasets in the medical field, while its time and space requirements increase linearly with the text length, alleviating the time and space overflow problem of basic BERT on long-text data."
-  id: "arxiv5"
-  bibtex: |
-    @article{zhao2022skin,<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;title={SkIn: Skimming-Intensive Long-Text Classification Using BERT for Medical Corpus},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;author={Zhao, Yufeng and et al.},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2209.05741},<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;year={2022}<br>
     }

@@ -1,19 +1,19 @@
-me:
+hy:
+  name: "Haolin Yang"
+  url: "https://hlyang2001.github.io/hly/"
+
+hc:
   name: "Hakaze Cho"
   url: "https://www.hakaze-c.com/"
-  name_jp: "趙羽風"
 
-n-inoue:
+ni:
   name: "Naoya Inoue"
   url: "https://naoya-i.info/"
-  name_jp: "井之上直也"
 
-i-kentaro:
-  name: "Kentaro Inui"
-  url: "https://kentaro-inui.github.io/"
-  name_jp: "乾健太郎"
+yz:
+  name: "Yiqiao Zhong"
+  url: "https://pages.stat.wisc.edu/~zhong35/index.html"
 
-Benjamin Heinzerling:
-  name: "Benjamin Heinzerling"
-  url: "https://bheinzerling.github.io/" 
-  name_jp: "Benjamin Heinzerling"
+kd:
+  name: "Kaize Ding"
+  url: "https://kaize0409.github.io/"
