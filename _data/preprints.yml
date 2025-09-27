@@ -6,7 +6,7 @@
       url: "https://www.jaist.ac.jp/is/labs/bits/brian"
     - name: ni
   venue: ICLR
-  year: 2025
+  year: 2026
   basic_url: "https://arxiv.org/abs/2509.20997"
   pages: 36
   urls:
@@ -32,7 +32,7 @@
       url: "https://gouki-minegishi.github.io/"
     - name: ni
   venue: ICLR
-  year: 2025
+  year: 2026
   basic_url: "https://arxiv.org/abs/2509.21012"
   pages: 67
   urls:
