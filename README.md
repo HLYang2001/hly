@@ -56,7 +56,7 @@ I am actively seeking productive research collaborations in the aforementioned a
 ## Resume
 
 <div class="img_margin" style="display: flex; align-items: center; gap: 10px;">
-    <img src="./assets/fig/uchi.png" height="105">
+    <img src="./assets/fig/uchi.jpg" height="150">
     <img src="./assets/fig/thu.png" height="150">
 </div>
 
