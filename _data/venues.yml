@@ -29,3 +29,7 @@ NeurIPS:
   short: "NeurIPS"
   h5: 371
   infl: 23.3
+
+recall:
+  name: "ReCALL"
+  infl: 5.7

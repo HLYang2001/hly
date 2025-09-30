@@ -33,11 +33,15 @@ I am actively seeking productive research collaborations in the aforementioned a
 
 {% include_relative _includes/paper_statics.html %}
 
-### International Conference
+### International Conferences
 
 {% include_relative _includes/paper_list_international_c_papers.html %}
 
-### Pre-print
+### Journals
+
+{% include_relative _includes/paper_list_journal_papers.html %}
+
+### Pre-prints
 
 {% include_relative _includes/paper_list_pre_print_papers.html %}
 
