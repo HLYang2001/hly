@@ -1,8 +1,8 @@
 
 - title: "Localizing Task Recognition and Task Learning in In-Context Learning via Attention Head Analysis"
   authors:
-    - name: hc
     - name: hy
+    - name: hc
     - name: ni
   venue: ICLR
   year: 2026
@@ -26,8 +26,8 @@
 
 - title: "Task Vectors, Learned Not Extracted: Performance Gains and Mechanistic Insight"
   authors:
-    - name: hc
     - name: hy
+    - name: hc
     - name: kd
     - name: ni
   venue: ICLR
