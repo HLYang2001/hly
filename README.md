@@ -46,7 +46,7 @@ I am actively seeking productive research collaborations in the aforementioned a
 
 
 
-### (Thesis)
+### Thesis
 
 
 1. On Automatic Post-Editing Models in the English-Chinese Translation of Biomedical Journal Articles.   
