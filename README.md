@@ -66,6 +66,9 @@ I am actively seeking productive research collaborations in the aforementioned a
 - **B.A.** in English, 2020.9 ~ 2024.6  
   [Department of Foreign Languages and Literatures](https://www.dfll.tsinghua.edu.cn/dfllen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/){:target="_blank"}   
 
+  **Minor** in Economics and Finance, 2020.9 ~ 2024.6  
+  [School of Economics and Management](https://www.sem.tsinghua.edu.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/){:target="_blank"}   
+
 ## Awards
 - Outstanding Undergraduate Thesis @ School of Humanities, Tsinghua University. 2024. 
 - Outstanding Undergraduate @ Tsinghua University. 2024.
