@@ -1,4 +1,5 @@
 {%- assign papers = site.data.preprints -%}
+{%- assign venues = site.data.venues -%}
 {%- assign know_authors = site.data.authors -%}
 
 {%- if papers -%}
@@ -8,6 +9,17 @@
     {%- assign authors = item.authors -%}
     {%- assign venue = item.venue -%}
     {%- assign pages = item.pages -%}
+    {%- if venues[venue] -%}
+        {%- assign venue_name = venues[venue].name -%}
+        {%- assign venue_short = venues[venue].short -%}
+        {%- assign h5 = venues[venue].h5 -%}
+        {%- assign infl = venues[venue].infl -%}
+    {%- else -%}
+        {%- assign venue_name = item.venue -%}
+        {%- assign venue_short = item.venue_short -%}
+        {%- assign h5 = item.h5 -%}
+        {%- assign infl = item.infl -%}
+    {%- endif -%}
     {%- assign year = item.year -%}
     {%- assign basic_url = item.basic_url -%}
     {%- assign urls = item.urls -%}
@@ -25,7 +37,7 @@
             ,&nbsp;
         {%- endif -%}
         {%- if displayname == "Haolin Yang" -%}
-            <strong><a href="{{ https://hlyang2001.github.io/hly/ }}" target="_blank">{{ displayname }}</a></strong>
+            <strong><a href="https://hlyang2001.github.io/hly/" target="_blank">{{ displayname }}</a></strong>
         {%- else -%}
             {%- if displayurl -%}
                 <a href="{{ displayurl }}" target="_blank">{{ displayname }}</a>
@@ -35,16 +47,17 @@
         {%- endif -%}
     {%- endfor -%}
 <br>
-Pre-print. Submitted to {{ venue }}&nbsp;<strong>{{ year }}</strong>.&nbsp;{%- if pages -%}{{ pages }} pages.&nbsp;{%- endif -%}
+Pre-print. Submitted to {{ venue_name }}{%- if venue_short -%}&nbsp;(<strong>{{ venue_short }}</strong>){%- endif -%}.&nbsp;<strong>{{ year }}</strong>.&nbsp;
+    {%- if pages -%}{{ pages }} pages.&nbsp;{%- endif -%}
     {%- if h5 or infl -%} [
         {%- if h5 -%}
-            h5= {{ h5 }}
+            h5={{ h5 }}
         {%- endif -%}
         {%- if h5 and infl -%}
             ,&nbsp;
         {%- endif -%}
         {%- if infl -%}
-            IF= {{ infl }}
+            IF={{ infl }}
         {%- endif -%}
         ]
     {%- endif -%}
@@ -79,6 +92,6 @@ Pre-print. Submitted to {{ venue }}&nbsp;<strong>{{ year }}</strong>.&nbsp;{%- i
         </div>
     {%- endif -%}
     </li>
-    {%- endfor -%}
+{%- endfor -%}
 </ol>
 {%- endif -%}
