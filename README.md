@@ -17,7 +17,7 @@ title: "Haolin Yang / 杨昊霖"
 [GitHub](https://github.com/HLYang2001/){:target="_blank"} &nbsp;&nbsp;&nbsp; 
 [Google Scholar](https://scholar.google.com/citations?user=UJWP-v0AAAAJ&hl=en){:target="_blank"} &nbsp;&nbsp;&nbsp; 
 [ORCID](https://orcid.org/0009-0000-5904-3054){:target="_blank"} &nbsp;&nbsp;&nbsp; 
-[CV](./assets/cv_yfzhao.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;   
+[CV](./assets/cv_hly.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;   
 
 I am currently a master student in statistics at [the University of Chicago](https://www.uchicago.edu/en).  Previously I graduated from [Tsinghua University](https://www.tsinghua.edu.cn/en/) where I majored in English and minored in Economics & Finance and Statistics. My research focuses on using mathematically sound and theoretically-inspired methods to understand the internal mechanisms of Large Language Models which underly their external behaviors, primarily __in-context learning__, and control their behaviors robustly and efficiently through such understanding. In my undergraduate days I also investigated the differences between the strategies applied by pretrained language models and those suggested by traditional translation studies to improve raw machine translations of English academic texts into Chinese. I have multiple papers accepted/submitted to top-tier international conferences including NeurIPS and ICLR.
 
