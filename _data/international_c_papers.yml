@@ -7,7 +7,7 @@
   venue: NeurIPS
   year: 2025
   basic_url: "https://arxiv.org/abs/2505.18752"
-  pages: 45
+  pages: 52
   urls:
     - url: "https://arxiv.org/pdf/2505.18752"
       label: "PDF"
@@ -36,7 +36,7 @@
   venue: iclr
   year: 2026
   basic_url: "https://openreview.net/forum?id=gdvOF1OMa7"
-  pages: 45
+  pages: 60
   urls:
     - url: "https://openreview.net/pdf?id=gdvOF1OMa7"
       label: "PDF"
@@ -63,7 +63,7 @@
   venue: iclr
   year: 2026
   basic_url: "https://openreview.net/forum?id=RGEbVZgf4E"
-  pages: 48
+  pages: 58
   urls:
     - url: "https://openreview.net/pdf?id=RGEbVZgf4E"
       label: "PDF"
@@ -91,7 +91,7 @@
   venue: iclr
   year: 2026
   basic_url: "https://openreview.net/forum?id=VAv1rrPR1A"
-  pages: 67
+  pages: 87
   urls:
     - url: "https://openreview.net/pdf?id=VAv1rrPR1A"
       label: "PDF"
