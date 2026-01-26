@@ -35,10 +35,10 @@
     - name: ni
   venue: iclr
   year: 2026
-  basic_url: "https://arxiv.org/abs/2509.24164"
+  basic_url: "https://openreview.net/forum?id=gdvOF1OMa7"
   pages: 45
   urls:
-    - url: "https://arxiv.org/pdf/2509.24164"
+    - url: "https://openreview.net/pdf?id=gdvOF1OMa7"
       label: "PDF"
     - url: "https://arxiv.org/abs/2509.24164"
       label: "arXiv"
@@ -62,10 +62,10 @@
     - name: ni
   venue: iclr
   year: 2026
-  basic_url: "https://arxiv.org/abs/2509.24169"
+  basic_url: "https://openreview.net/forum?id=RGEbVZgf4E"
   pages: 48
   urls:
-    - url: "https://arxiv.org/pdf/2509.24169"
+    - url: "https://openreview.net/pdf?id=RGEbVZgf4E"
       label: "PDF"
     - url: "https://arxiv.org/abs/2509.24169"
       label: "arXiv"
@@ -90,10 +90,10 @@
     - name: ni
   venue: iclr
   year: 2026
-  basic_url: "https://arxiv.org/abs/2509.21012"
+  basic_url: "https://openreview.net/forum?id=VAv1rrPR1A"
   pages: 67
   urls:
-    - url: "https://arxiv.org/pdf/2509.21012"
+    - url: "https://openreview.net/pdf?id=VAv1rrPR1A"
       label: "PDF"
     - url: "https://arxiv.org/abs/2509.21012"
       label: "arXiv"
