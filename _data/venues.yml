@@ -33,3 +33,10 @@ NeurIPS:
 recall:
   name: "ReCALL"
   infl: 5.7
+
+icml:
+  name: "International Conference on Machine Learning"
+  short: "ICML"
+  h5: 272
+  infl: 26.7
+
