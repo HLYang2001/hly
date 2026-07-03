@@ -20,11 +20,9 @@ title: "Haolin Yang / 杨昊霖"
 [ORCID](https://orcid.org/0009-0000-5904-3054){:target="_blank"} &nbsp;&nbsp;&nbsp; 
 [CV](./assets/cv_hly.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;   
 
-I am currently a master student in statistics at [the University of Chicago](https://www.uchicago.edu/en).  Previously I graduated from [Tsinghua University](https://www.tsinghua.edu.cn/en/) where I majored in English and minored in Economics & Finance and Statistics. My research focuses on using mathematically-sound and theoretically-inspired methods to understand the internal mechanisms of Large Language Models which underly their external behaviors, primarily __in-context learning__, and control their behaviors robustly and efficiently through such understanding. In my undergraduate days I also investigated the differences between the strategies applied by pretrained language models and those suggested by traditional translation studies to improve raw machine translations of English academic texts into Chinese. I have multiple papers accepted/submitted to top-tier international conferences including NeurIPS, ICLR, and ICML.
+I am an incoming Ph.D. student in Data Science at [New York University](https://www.nyu.edu/). Previously, I received an M.S. in Statistics from [the University of Chicago](https://www.uchicago.edu/en) and a B.A. in English, with minors in Economics & Finance and Statistics, from [Tsinghua University](https://www.tsinghua.edu.cn/en/). My research focuses on using mathematically-sound and theoretically-inspired methods to understand the internal mechanisms of Large Language Models which underly their external behaviors, primarily __in-context learning__, and control their behaviors robustly and efficiently through such understanding. In my undergraduate days I also investigated how language models implemented the English-Chinese translation of biomedical academic texts. I have multiple papers accepted/submitted to top-tier international conferences including NeurIPS, ICLR, and ICML.
 
 I am actively seeking productive research collaborations in the aforementioned area or other related fields. If you are interested in working together, feel free to contact me. 
-
-<strong style="color:red;">I am seeking Ph.D. positions starting in Fall 2026.</strong>
 
 ## Research Interests
 
@@ -53,8 +51,11 @@ I am actively seeking productive research collaborations in the aforementioned a
 
 ### Thesis
 
+1. A Unified Mechanistic Framework for In-Context Learning: Hidden State Geometry, Task Recognition, and Task      Learning.   
+  Haolin Yang  
+  @ [University of Chicago](https://www.uchicago.edu/en). **2026**. 97 pages.
 
-1. On Automatic Post-Editing Models in the English-Chinese Translation of Biomedical Journal Articles.   
+2. On Automatic Post-Editing Models in the English-Chinese Translation of Biomedical Journal Articles.   
    Haolin Yang  
    Outstanding Undergraduate Thesis @ [Tsinghua University](https://www.tsinghua.edu.cn/en/). **2024**. 80 pages.
 
