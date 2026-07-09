@@ -80,7 +80,6 @@
       &nbsp;&nbsp;&nbsp;&nbsp;url={https://openreview.net/forum?id=RGEbVZgf4E}<br>
     }
 
-
 - title: "Mechanism of Task-oriented Information Removal in In-context Learning"
   authors:
     - name: hc
@@ -107,3 +106,31 @@
       &nbsp;&nbsp;&nbsp;&nbsp;year={2026},<br>
       &nbsp;&nbsp;&nbsp;&nbsp;url={https://openreview.net/forum?id=VAv1rrPR1A}<br>
     }
+
+- title: "Neuro-Symbolic Synergy for World Modeling"
+  authors:
+    - name: Hongyu Zhao
+    - name: Siyu Zhou
+    - name: hy
+    - name: Zengyi Qin
+    - name: Tianyi Zhou
+  venue: colm
+  year: 2026
+  basic_url: "https://openreview.net/pdf?id=ygvJV6wx5t"
+  pages: 18
+  urls:
+    - url: "https://openreview.net/pdf?id=ygvJV6wx5t"
+      label: "PDF"
+    - url: "https://arxiv.org/abs/2602.10480"
+      label: "arXiv"
+
+  abstract: "Large language models (LLMs) exhibit strong general-purpose reasoning capabilities, yet they frequently hallucinate when used as world models (WMs), where strict compliance with deterministic transition rules—particularly in corner cases—is essential. In contrast, Symbolic WMs provide logical consistency but lack semantic expressivity. To bridge this gap, we propose Neuro-Symbolic Synergy (NeSyS), a framework that integrates the probabilistic semantic priors of LLMs with executable symbolic rules to achieve both expressivity and robustness. NeSyS alternates training between the two models using trajectories inadequately explained by the other. Unlike rule-based prompting, the symbolic WM directly constrains the LLM by modifying its output probability distribution. The neural WM is fine-tuned only on trajectories not covered by symbolic rules, reducing training data by 50% without loss of accuracy. Extensive experiments on three distinct interactive environments, i.e., ScienceWorld, Webshop, and Plancraft, demonstrate NeSyS's consistent advantages over baselines in both WM prediction accuracy and data efficiency."
+  id: "colm1"
+  bibtex: |
+    @inproceedings{zhao2026neurosymbolicsynergyinteractiveworld,<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;title={Neuro-Symbolic Synergy for Interactive World Modeling},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;author={Zhao, Hongyu and Zhou, Siyu and Yang, Haolin and Qin, Zengyi and Zhou, Tianyi},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;booktitle={arXiv preprint arXiv:2602.10480},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;year={2026},<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;url={https://arxiv.org/abs/2602.10480}<br>
+    },
