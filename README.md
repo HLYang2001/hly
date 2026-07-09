@@ -66,7 +66,10 @@ I am actively seeking productive research collaborations in the aforementioned a
     <img src="./assets/fig/thu.png" height="150">
 </div>
 
-- **M.S.** in Statistics, 2024.9 ~ Now   
+- **Ph.D.** in Data Science, 2026.9 ~    
+  [Center for Data Science](https://cds.nyu.edu/){:target="_blank"}, [New York University](https://www.nyu.edu/){:target="_blank"}   
+
+- **M.S.** in Statistics, 2024.9 ~ 2026.6   
   [Department of Statistics](https://stat.uchicago.edu/){:target="_blank"}, [University of Chicago](https://www.uchicago.edu/en){:target="_blank"}   
   
 - **B.A.** in English, 2020.9 ~ 2024.6  
