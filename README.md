@@ -8,10 +8,10 @@ title: "Haolin Yang / 杨昊霖"
 <img src="./assets/fig/photo.jpg" alt="" height="400">
 </div>
 
-**Master Student** @ [Department of Statistics](https://stat.uchicago.edu/){:target="_blank"}, [University of Chicago](https://www.jaist.ac.jp/){:target="_blank"}  
+**PhD Student** @ [Center for Data Science](https://cds.nyu.edu/){:target="_blank"}, [New York University](https://www.nyu.edu/){:target="_blank"}  
 
 
-**E-mail**: haolinyang2001 [at] uchicago.edu  
+**E-mail**: hy3127 [at] nyu.edu  
 **Links**:
 
 [GitHub](https://github.com/HLYang2001/){:target="_blank"} &nbsp;&nbsp;&nbsp; 
